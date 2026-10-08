@@ -1,8 +1,8 @@
 import { Component, computed, effect, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { TraditionalTwoWayParent } from './traditional-two-way-parent/traditional-two-way-parent';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [TraditionalTwoWayParent],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
